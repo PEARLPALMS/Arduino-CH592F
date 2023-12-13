@@ -1,4 +1,3 @@
-# Arduino-CH592F
 # WCH CH592F for Arduino IDE
 
 CH592F 用の Arduino IDE 実装ですが、実物を持ってませんので、開発環境を作っただけです。<br>
