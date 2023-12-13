@@ -6,15 +6,16 @@ CH592F 用の Arduino IDE ですが、実物を持ってませんので、開発
 https://github.com/ElectronicCats/arduino-wch58x
 
 いずれモノが入手し、気が向けば続きを実装するかもしれません。
+<img src="./image/board.png" width="80%">
 
 
-CH592F 概要 (Google翻訳)
+CH592F 概要 (Google翻訳)<br>
 
 概要<br>
 CH592 は、BLE ワイヤレス通信を統合した RISC-V MCU マイクロコントローラーです。2Mbps BLE通信モジュール、フルスピードUSBホストおよびデバイスコントローラおよびトランシーバ、セグメントLCDドライバモジュール、SPI、4つのシリアルポート、12チャネルADC、タッチキー検出モジュールおよびその他の豊富な周辺リソースをオンチップ統合。
 
 システムブロック図<br>
-
+<img src="./image/ch592f.png" width="80%">
 
 特徴<br>
 QingKe 32 ビット RISC-V4C コア<br>
@@ -37,4 +38,4 @@ USB2.0フルスピードホスト/デバイス<br>
 パッケージ: QFN32、QFN28<br>
 
 セレクションガイド<br>
-
+<img src="./image/ch59xx.png" width="80%">
