@@ -1,23 +1,22 @@
 # Arduino-CH592F
-WCH CH592F for Arduino IDE
+# WCH CH592F for Arduino IDE
 
 CH592F 用の Arduino IDE ですが、実物を持ってませんので、開発環境を作っただけです。
 以下の場所に CH58x 用の実装がありますので、それに上書きする形でインストールします。
 https://github.com/ElectronicCats/arduino-wch58x
 
-いずれモノが入手し、気が向けば続きを実装するかもしれません。
+いずれモノが入手し、気が向けば続きを実装するかもしれません。技適の問題で入手しない可能性あり。
 <img src="./image/board.png" width="80%">
 
-
-# CH592F 概要 (Google翻訳)<a href="https://www.wch-ic.com/products/CH592.html">原文</a>
+# CH592F 概要 (Google翻訳) <a href="https://www.wch-ic.com/products/CH592.html">原文</a>
 
 # 概要
 CH592 は、BLE ワイヤレス通信を統合した RISC-V MCU マイクロコントローラーです。2Mbps BLE通信モジュール、フルスピードUSBホストおよびデバイスコントローラおよびトランシーバ、セグメントLCDドライバモジュール、SPI、4つのシリアルポート、12チャネルADC、タッチキー検出モジュールおよびその他の豊富な周辺リソースをオンチップ統合。
 
-# システムブロック図<br>
+# システムブロック図
 <img src="./image/ch592f.png" width="100%">
 
-# 特徴<br>
+# 特徴
 ・ QingKe 32 ビット RISC-V4C コア<br>
 ・ RV32IMAC 命令セットおよび自己拡張命令をサポート<br>
 ・ 26KB SRAM、512KB フラッシュ、ICP、ISP、IAP をサポート、OTA ワイヤレス アップグレードをサポート<br>
@@ -37,5 +36,5 @@ CH592 は、BLE ワイヤレス通信を統合した RISC-V MCU マイクロコ�
 ・ 内蔵のAES-128暗号化および復号化、固有のチップID<br>
 ・ パッケージ: QFN32、QFN28<br>
 
-# セレクションガイド<br>
+# セレクションガイド
 <img src="./image/ch59xx.png" width="100%">
