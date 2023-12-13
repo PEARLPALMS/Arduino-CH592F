@@ -9,7 +9,7 @@ CH592F 用の Arduino IDE 実装ですが、実物を持ってませんので、
 
 <img src="./image/board.png" width="80%">
 
-# CH592F 概要 (Google翻訳) <a href="https://www.wch-ic.com/products/CH592.html">原文</a>
+# 概要 (Google翻訳) <a href="https://www.wch-ic.com/products/CH592.html">原文</a>
 CH592 は、BLE ワイヤレス通信を統合した RISC-V MCU マイクロコントローラーです。2Mbps BLE通信モジュール、フルスピードUSBホストおよびデバイスコントローラおよびトランシーバ、セグメントLCDドライバモジュール、SPI、4つのシリアルポート、12チャネルADC、タッチキー検出モジュールおよびその他の豊富な周辺リソースをオンチップ統合。
 
 # システムブロック図
