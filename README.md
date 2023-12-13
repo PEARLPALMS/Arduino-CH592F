@@ -5,7 +5,8 @@ CH592F 用の Arduino IDE 実装ですが、実物を持ってませんので、
 以下の場所に CH58x 用の実装がありますので、それに上書きする形でインストールします。<br>
 <a href="https://github.com/ElectronicCats/arduino-wch58x">https://github.com/ElectronicCats/arduino-wch58x</a>
 
-いずれモノが入手し、気が向けば続きを実装するかもしれません。技適の問題で入手しない可能性もあります。
+いずれモノが入手し、気が向けば続きを実装するかもしれません。技適の問題で入手しない可能性もあります。<br>
+2023年12月現在、230円～250円程度で販売されています。<br>
 
 <img src="./image/board.png" width="80%">
 
