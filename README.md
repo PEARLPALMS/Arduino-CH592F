@@ -1,11 +1,11 @@
 # Arduino-CH592F
 # WCH CH592F for Arduino IDE
 
-CH592F 用の Arduino IDE 実装ですが、実物を持ってませんので、開発環境を作っただけです。
-以下の場所に CH58x 用の実装がありますので、それに上書きする形でインストールします。
-https://github.com/ElectronicCats/arduino-wch58x
+CH592F 用の Arduino IDE 実装ですが、実物を持ってませんので、開発環境を作っただけです。<br>
+以下の場所に CH58x 用の実装がありますので、それに上書きする形でインストールします。<br>
+<a href="https://github.com/ElectronicCats/arduino-wch58x">https://github.com/ElectronicCats/arduino-wch58x</a>
 
-いずれモノが入手し、気が向けば続きを実装するかもしれません。技適の問題で入手しない可能性あり。
+いずれモノが入手し、気が向けば続きを実装するかもしれません。技適の問題で入手しない可能性もあります。
 
 <img src="./image/board.png" width="80%">
 
