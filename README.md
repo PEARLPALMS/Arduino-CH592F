@@ -9,10 +9,9 @@ https://github.com/ElectronicCats/arduino-wch58x
 <img src="./image/board.png" width="80%">
 
 
-# CH592F 概要 (Google翻訳)<br>
-原文は<a href="https://www.wch-ic.com/products/CH592.html">こちら</a>
+# CH592F 概要 (Google翻訳)<a href="https://www.wch-ic.com/products/CH592.html">原文</a>
 
-# 概要<br>
+# 概要
 CH592 は、BLE ワイヤレス通信を統合した RISC-V MCU マイクロコントローラーです。2Mbps BLE通信モジュール、フルスピードUSBホストおよびデバイスコントローラおよびトランシーバ、セグメントLCDドライバモジュール、SPI、4つのシリアルポート、12チャネルADC、タッチキー検出モジュールおよびその他の豊富な周辺リソースをオンチップ統合。
 
 # システムブロック図<br>
