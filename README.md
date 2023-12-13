@@ -1,16 +1,15 @@
 # Arduino-CH592F
 # WCH CH592F for Arduino IDE
 
-CH592F 用の Arduino IDE ですが、実物を持ってませんので、開発環境を作っただけです。
+CH592F 用の Arduino IDE 実装ですが、実物を持ってませんので、開発環境を作っただけです。
 以下の場所に CH58x 用の実装がありますので、それに上書きする形でインストールします。
 https://github.com/ElectronicCats/arduino-wch58x
 
 いずれモノが入手し、気が向けば続きを実装するかもしれません。技適の問題で入手しない可能性あり。
+
 <img src="./image/board.png" width="80%">
 
 # CH592F 概要 (Google翻訳) <a href="https://www.wch-ic.com/products/CH592.html">原文</a>
-
-# 概要
 CH592 は、BLE ワイヤレス通信を統合した RISC-V MCU マイクロコントローラーです。2Mbps BLE通信モジュール、フルスピードUSBホストおよびデバイスコントローラおよびトランシーバ、セグメントLCDドライバモジュール、SPI、4つのシリアルポート、12チャネルADC、タッチキー検出モジュールおよびその他の豊富な周辺リソースをオンチップ統合。
 
 # システムブロック図
