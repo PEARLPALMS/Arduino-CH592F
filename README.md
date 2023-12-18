@@ -5,7 +5,6 @@ CH592F 用の Arduino IDE 実装ですが、実物を持ってませんので、
 <a href="https://github.com/ElectronicCats/arduino-wch58x">https://github.com/ElectronicCats/arduino-wch58x</a><br>
 動作確認は Lチカ までしか行っておりません。<br>
 詳しいインストールは、別ページにまとめました。
-> []
 > <a href="install.md">→インストールからLチカまで</a>
 
 モノは AliExpress などで購入できますが、技適の問題もありますので、取り扱いにはご注意ください。<br>
