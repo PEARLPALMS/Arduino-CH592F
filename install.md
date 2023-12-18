@@ -65,13 +65,19 @@ Arduino IDE でコンパイルが完了すると、以下のエラーが出ま�
 # ボードへの書き込み
 
 書き込みにはソフト WCHISPTool が必要です。以下の場所からダウンロードが可能です。<br>
-デフォルトインストール先が、Cドライブ直下になりますので、嫌な方はインストール後、ファイルだけコピー退避してアンインストールしても構いません。<br>
+デフォルトインストール先が、Cドライブ直下になりますので、嫌な方はインストール後、ファイルだけ退避してアンインストールしても構いません。<br>
 <a href="https://www.wch-ic.com/downloads/WCHISPTool_Setup_exe.html">https://www.wch-ic.com/downloads/WCHISPTool_Setup_exe.html</a>
 
-ここで USBコネクタ に CH592F を刺さないでください。<br>
+> [!CAUTION]
+> ここで USBコネクタ に CH592F を刺さないでください。
 
-WCHISPTool_CH57x-59x.exe を起動し、上記でメモした **\*.elf** と同じディレクトリにある、**\*.hex** ファイルを指定するだけです。<br>
-必ず **ObjectFile1** に指定すること。指定するファイルは、**elfファイル** ではなく、**hexファイル** を指定すること<br>
+WCHISPTool_CH57x-59x.exe を起動し、上記でメモした **\*.elf** と同じディレクトリにある、**\*.hex** ファイルを指定します。<br>
+> [!IMPORTANT]
+> 必ず **ObjectFile1** に指定すること。指定するファイルは、**elfファイル** ではなく、**hexファイル** を指定すること。
+
+ここで USBコネクタ に CH592F を差し込みますが、BOOTボタンを押しながら差し込みます。<br>
+スイッチ付き USBハブ が無いと現実的に運用は不可能かと思われます。<br>
+
 画像の通り、Lチカ程度であれば、1秒以下で終了します。<br>
 <img src="./image/WCHISPTool.png" width="60%">
 
