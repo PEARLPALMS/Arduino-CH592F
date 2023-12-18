@@ -66,8 +66,14 @@ Arduino IDE でコンパイルが完了すると、以下のエラーが出ま�
 デフォルトインストール先が、Cドライブ直下になりますので、嫌な方はインストール後、ファイルだけコピー退避してアンインストールしても構いません。<br>
 <a href="https://www.wch-ic.com/downloads/WCHISPTool_Setup_exe.html">https://www.wch-ic.com/downloads/WCHISPTool_Setup_exe.html</a>
 
+ここで USBコネクタ に CH592F を刺さないでください。<br>
+
 WCHISPTool_CH57x-59x.exe を起動し、上記でメモした **\*.elf** と同じディレクトリにある、**\*.hex** ファイルを指定するだけです。<br>
-※ elfファイルではなく、hexファイルを指定すること
+必ず **ObjectFile1** に指定すること。指定するファイルは、**elfファイル** ではなく、**hexファイル** を指定すること<br>
+画像の通り、Lチカ程度であれば、1秒以下で終了します。<br>
 <img src="./image/WCHISPTool.png" width="60%">
 
-
+デフォルトの Lチカ と区別するために、フェードする Lチカ を以下のディレクトリに置きました。<br>
+ご自由にお使いください。<br>
+とりあえず Arduino IDE 環境を作らずとも、ボードの動作テストぐらいは出来ます。<br>
+<a href="https://github.com/PEARLPALMS/Arduino-CH592F/tree/main/sample">https://github.com/PEARLPALMS/Arduino-CH592F/tree/main/sample</a>
