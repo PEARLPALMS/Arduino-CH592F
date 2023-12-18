@@ -9,7 +9,7 @@
 ・ 帯電防止袋は、なにげに嬉しいチャック付き(直ぐに捨てるんだけど)。<br>
 全体的に丁寧な作りと、安っぽい梱包でなく、好感が持てる。と言ってられるのも今のうちで、
 既に日本製では、同等製品を作成できないレベルだとも。。。<br>
-<img src="./image/ali1.png" width="80%">
+<img src="./image/ali1.png" width="80%"><br>
 <br>
 
 
@@ -19,7 +19,7 @@
 あらかじめフラックスたっぷりで作業するほうが良かった。STM32 付属のピンも同様だった記憶。<br>
 裏面には、実装部品が皆無で、シルク印刷でデバッグピン番号が書かれている。<br>
 V1.0の下にあるジャンパー部分は、分かりません。導通を確認すれば直ぐに分かるでしょうが、やってません。<br>
-<img src="./image/ali2.png" width="80%">
+<img src="./image/ali2.png" width="80%"><br>
 <br>
 
 
@@ -50,9 +50,10 @@ B22 BOOT  TMR3  RXD2         |  A4 RXD3           AIN
 
 Nano互換と比べると、幅は同じですが、ピン数が少なくアンテナ部分を含めても小さいです。<br>
 Seeeduino や ATtiny などを除けば、実用性のある小サイズだと思われます。<br>
-<img src="./image/vsnano.png" width="80%">
+<img src="./image/vsnano.png" width="80%"><br>
 <br>
 
 幅が同じなので、Nanoのシールドも使えますが、ピン番号によってはショートするので、自己責任で。。。<br>
 そもそも、こんな使い方する人、いませんね。<br>
-<img src="./image/fakeshield.png" width="80%">
+<img src="./image/fakeshield.png" width="80%"><br>
+<br>
