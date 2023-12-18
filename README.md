@@ -1,7 +1,5 @@
 # WCH CH592F for Arduino IDE
 
-## 詳しくは [**GitHub**](https://github.com/PEARLPALMS/Arduino-CH592F) ページへ
-
 ### 詳しくは [**GitHub**](https://github.com/PEARLPALMS/Arduino-CH592F) ページへ
 
 CH592F 用の Arduino IDE 実装ですが、実物を持ってませんので、開発環境を作っただけです(その後入手しました)。<br>
