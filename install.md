@@ -14,16 +14,15 @@
 以下のファイルをダウンロードし、CH58x 環境に上書きします。<br>
 <a href="https://github.com/PEARLPALMS/Arduino-CH592F/blob/main/electroniccats_.7z">https://github.com/PEARLPALMS/Arduino-CH592F/blob/main/electroniccats_.7z</a><br>
 ```
-CH58x環境が壊れますので、ご注意ください。両方の実装が必要な方は、各自で切り分けを行ってください。<br>
+CH58x環境が壊れますので、ご注意ください。両方の実装が必要な方は、各自で切り分けを行ってください。
 ```
 (そのための環境を作る必要があるので、かなり面倒だと思われます)<br>
-上書き元は、環境によると思われますが、以下のディレクトリに上書きします。<br>
+上書き先は、環境によると思われますが、以下のディレクトリに上書きします。<br>
 ```
 C:\Users\ユーザー名\AppData\Local\Arduino15\packages\electroniccats
 ```
 
-なお以下のディレクトリーを削除する必要があります。リネームではインクルードされますので、<br>
-バックアップが必要な方は、より上位の階層に移動してください。<br>
+なお以下のディレクトリーを削除する必要があります。リネームではインクルードされますので、バックアップが必要な方は、より上位の階層に移動してください。<br>
 ```
 C:\Users\ユーザー名\AppData\Local\Arduino15\packages\electroniccats\hardware\wch\0.0.1\cores\arduino\ch583
 ```
@@ -34,14 +33,10 @@ C:\Users\ユーザー名\AppData\Local\Arduino15\packages\electroniccats\hardwar
 基盤のシルク印刷に A8 と書かれている通り、8番ピンが LED に接続されています。PWM も使えます。<br>
 
 ```
-#define LED_BUILTIN 8
-```
-または<br>
-```
 #undef LED_BUILTIN
 #define LED_BUILTIN 8
 ```
-を入れますが、スマートに実装するには、以下のコードが良いです。<br>
+上記のコードを入れますが、スマートに実装するには、以下のコードが良いです。<br>
 
 ```
 #ifdef ID_CH592
