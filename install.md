@@ -55,9 +55,9 @@ PWM も使えます。
 # コンパイルからボードへの書き込み
 
 Arduino IDE でコンパイルが完了すると、以下のエラーが出ます。
-;;;note alert
+:::note alert
 ブートローダのファイルが指定されましたが次が不足しています：...
-;;;
+:::
 
 "C:\\Users\\pearl\\... "C:\\Users\\pearl\\.../led_fade_internal.ino.elf"
 
