@@ -26,9 +26,9 @@ C:\Users\ユーザー名\AppData\Local\Arduino15\packages\electroniccats\hardwar
 基盤のシルク印刷に A8 と書かれている通り、8番ピンが LED に接続されています。
 PWM も使えます。
 
---
+```
 \#define LED_BUILTIN 8
---
+```
 --
 ブートローダのファイルが指定されましたが次が不足しています：...
 
