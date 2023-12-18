@@ -8,6 +8,7 @@
 
 ここまでで、CH58x が動作すると思われますが、持っていませんので分かりません。<br>
 
+
 # CH592F 用ファイルを上書きインストール
 
 以下のファイルをダウンロードし、CH58x 環境に上書きします。<br>
@@ -24,6 +25,7 @@ C:\Users\ユーザー名\AppData\Local\Arduino15\packages\electroniccats
 ```
 C:\Users\ユーザー名\AppData\Local\Arduino15\packages\electroniccats\hardware\wch\0.0.1\cores\arduino\ch583
 ```
+
 
 # LEDのピン番号は？
 
@@ -42,12 +44,18 @@ PWM も使えます。
 
 ```
 #ifdef ID_CH592
+#undef LED_BUILTIN
 #define LED_BUILTIN 8
 #endif
 ```
 
---
+
+# コンパイルからボードへの書き込み
+
+Arduino IDE でコンパイルが完了すると、以下のエラーが出ます。
+###note warn
 ブートローダのファイルが指定されましたが次が不足しています：...
+###
 
 "C:\\Users\\pearl\\... "C:\\Users\\pearl\\.../led_fade_internal.ino.elf"
 
