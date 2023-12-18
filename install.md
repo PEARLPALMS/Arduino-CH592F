@@ -53,9 +53,9 @@ Arduino IDE でコンパイルが完了すると、以下のエラーが出ま�
 ブートローダのファイルが指定されましたが次が不足しています：...
 ```
 
-その下に以下の記述があり、**\*.elf**ファイルの場所をメモしておきます。<br>
+その下に以下の記述があり、**\*.elf** ファイルの場所をメモしておきます。<br>
 ```
-"C:\\Users\\ユーザー名\\... "C:\\Users\\pearl\\.../led_fade_internal.ino.elf"
+"C:\\Users\\ユーザー名\\... "C:\\Users\\pearl\\.../**led_fade_internal.ino.elf**"
 最大448000バイトのフラッシュメモリのうち、スケッチが24184バイト（5%）を使っています。
 最大32000バイトのRAMのうち、グローバル変数が256バイト（0%）を使っていて、ローカル変数で31744バイト使うことができます。
 ```
@@ -66,7 +66,8 @@ Arduino IDE でコンパイルが完了すると、以下のエラーが出ま�
 デフォルトインストール先が、Cドライブ直下になりますので、嫌な方はインストール後、ファイルだけコピー退避してアンインストールしても構いません。<br>
 <a href="https://www.wch-ic.com/downloads/WCHISPTool_Setup_exe.html">https://www.wch-ic.com/downloads/WCHISPTool_Setup_exe.html</a>
 
-WCHISPTool_CH57x-59x.exe を起動し、上記でメモした *.elf と同じディレクトリにある、*.hex ファイルを指定するだけです。
-<img src="./image/WCHISPTool.png" width="100%">
+WCHISPTool_CH57x-59x.exe を起動し、上記でメモした **\*.elf** と同じディレクトリにある、**\*.hex** ファイルを指定するだけです。<br>
+※ elfファイルではなく、hexファイルを指定すること
+<img src="./image/WCHISPTool.png" width="60%">
 
 
