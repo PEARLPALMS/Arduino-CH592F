@@ -1,10 +1,10 @@
 # Arduino IDE 環境作成
 
 まず CH58x の実装を作成されている方がいらっしゃいますので、そちらをインストールします。<br>
-<a href="https://github.com/ElectronicCats/arduino-wch58x">https://github.com/ElectronicCats/arduino-wch58x</a><br>
+[https://github.com/ElectronicCats/arduino-wch58x](https://github.com/ElectronicCats/arduino-wch58x)<br>
 
 実際は、ボードの URL を追加してパッケージをインストールする方法になりますので、詳しい方法が書かれています。<br>
-<a href="https://github.com/ElectronicCats/arduino-wch58x/wiki/1.-First-steps-with-Arduino">https://github.com/ElectronicCats/arduino-wch58x/wiki/1.-First-steps-with-Arduino</a><br>
+[https://github.com/ElectronicCats/arduino-wch58x/wiki/1.-First-steps-with-Arduino](https://github.com/ElectronicCats/arduino-wch58x/wiki/1.-First-steps-with-Arduino)<br>
 
 ここまでで、CH58x が動作すると思われます。<br>
 
@@ -12,7 +12,7 @@
 # CH592F 用ファイルを上書きインストール
 
 以下のファイルをダウンロードし、CH58x 環境に上書きします。<br>
-<a href="https://github.com/PEARLPALMS/Arduino-CH592F/blob/main/electroniccats_.7z">https://github.com/PEARLPALMS/Arduino-CH592F/blob/main/electroniccats_.7z</a><br>
+[https://github.com/PEARLPALMS/Arduino-CH592F/blob/main/electroniccats_.7z](https://github.com/PEARLPALMS/Arduino-CH592F/blob/main/electroniccats_.7z)<br>
 
 > [!WARNING]
 > CH58x環境が壊れますので、ご注意ください。両方の実装が必要な方は、各自で切り分けを行ってください。
@@ -66,7 +66,7 @@ Arduino IDE でコンパイルが完了すると、以下のエラーが出ま�
 
 書き込みにはソフト WCHISPTool が必要です。以下の場所からダウンロードが可能です。<br>
 デフォルトインストール先が、Cドライブ直下になりますので、嫌な方はインストール後、ファイルだけ退避してアンインストールしても構いません。<br>
-<a href="https://www.wch-ic.com/downloads/WCHISPTool_Setup_exe.html">https://www.wch-ic.com/downloads/WCHISPTool_Setup_exe.html</a>
+[https://www.wch-ic.com/downloads/WCHISPTool_Setup_exe.html](https://www.wch-ic.com/downloads/WCHISPTool_Setup_exe.html)<br>
 
 > [!CAUTION]
 > ここで USBコネクタ に CH592F を刺さないでください。
@@ -85,4 +85,4 @@ WCHISPTool_CH57x-59x.exe を起動し、上記でメモした **\*.elf** と同�
 > デフォルトの Lチカ と区別するために、フェードする Lチカ を以下のディレクトリに置きました。<br>
 > ご自由にお使いください。<br>
 > とりあえず Arduino IDE 環境を作らずとも、ボードの動作テストぐらいは出来ます。<br>
-<a href="https://github.com/PEARLPALMS/Arduino-CH592F/tree/main/sample">https://github.com/PEARLPALMS/Arduino-CH592F/tree/main/sample</a>
+[https://github.com/PEARLPALMS/Arduino-CH592F/tree/main/sample](https://github.com/PEARLPALMS/Arduino-CH592F/tree/main/sample)<br>
