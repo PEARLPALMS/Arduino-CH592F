@@ -7,23 +7,26 @@ CH592F 用の Arduino IDE 実装ですが、実物を持ってませんので、
 > [https://github.com/ElectronicCats/arduino-wch58x](https://github.com/ElectronicCats/arduino-wch58x)<br>
 
 動作確認は Lチカ までしか行っておりません。<br>
-詳しいインストールは、別ページにまとめました。
+詳しいインストールは、別ページにまとめました。<br>
 
-> [インストールからLチカまで](install.md)
+> [インストールからLチカまで](install.md)<br>
 
 モノは AliExpress などで購入できますが、技適の問題もありますので、取り扱いにはご注意ください。<br>
 2023年12月現在、230円～250円程度で販売されています。<br>
-詳しいレビューは、別ページにまとめました。
+詳しいレビューは、別ページにまとめました。<br>
 
-> [レビューページ](review.md)
+> [レビューページ](review.md)<br>
 
 <img src="./image/board.png" width="80%">
+<br>
 
 # 概要 (Google翻訳) [原文](https://www.wch-ic.com/products/CH592.html)
-CH592 は、BLE ワイヤレス通信を統合した RISC-V MCU マイクロコントローラーです。2Mbps BLE通信モジュール、フルスピードUSBホストおよびデバイスコントローラおよびトランシーバ、セグメントLCDドライバモジュール、SPI、4つのシリアルポート、12チャネルADC、タッチキー検出モジュールおよびその他の豊富な周辺リソースをオンチップ統合。
+CH592 は、BLE ワイヤレス通信を統合した RISC-V MCU マイクロコントローラーです。2Mbps BLE通信モジュール、フルスピードUSBホストおよびデバイスコントローラおよびトランシーバ、セグメントLCDドライバモジュール、SPI、4つのシリアルポート、12チャネルADC、タッチキー検出モジュールおよびその他の豊富な周辺リソースをオンチップ統合。<br>
+<br>
 
 # システムブロック図
 <img src="./image/ch592f.png" width="100%">
+<br>
 
 # 特徴
 ・ QingKe 32 ビット RISC-V4C コア<br>
@@ -44,6 +47,8 @@ CH592 は、BLE ワイヤレス通信を統合した RISC-V MCU マイクロコ�
 ・ 最小サポート 1.7V 電源電圧<br>
 ・ 内蔵のAES-128暗号化および復号化、固有のチップID<br>
 ・ パッケージ: QFN32、QFN28<br>
+<br>
 
 # セレクションガイド
 <img src="./image/ch59xx.png" width="100%">
+<br>
