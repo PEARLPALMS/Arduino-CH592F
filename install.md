@@ -82,7 +82,7 @@ WCHISPTool_CH57x-59x.exe を起動し、上記でメモした **\*.elf** と同�
 <img src="./image/WCHISPTool.png" width="60%">
 
 > [!NOTE]
-> デフォルトの Lチカ と区別するために、フェードする Lチカ を以下のディレクトリに置きました。
-> ご自由にお使いください。
-> とりあえず Arduino IDE 環境を作らずとも、ボードの動作テストぐらいは出来ます。
+> デフォルトの Lチカ と区別するために、フェードする Lチカ を以下のディレクトリに置きました。<br>
+> ご自由にお使いください。<br>
+> とりあえず Arduino IDE 環境を作らずとも、ボードの動作テストぐらいは出来ます。<br>
 <a href="https://github.com/PEARLPALMS/Arduino-CH592F/tree/main/sample">https://github.com/PEARLPALMS/Arduino-CH592F/tree/main/sample</a>
