@@ -13,9 +13,9 @@
 
 以下のファイルをダウンロードし、CH58x 環境に上書きします。<br>
 <a href="https://github.com/PEARLPALMS/Arduino-CH592F/blob/main/electroniccats_.7z">https://github.com/PEARLPALMS/Arduino-CH592F/blob/main/electroniccats_.7z</a><br>
-;;;note warn
+:::note warn
 CH58x環境が壊れますので、ご注意ください。両方の実装が必要な方は、各自で切り分けを行ってください。<br>
-;;;
+:::
 (そのための環境を作る必要があるので、かなり面倒だと思われます)<br>
 上書き元は、環境によると思われますが、以下のディレクトリに上書きします。<br>
 ```
