@@ -46,7 +46,7 @@ C:\Users\ユーザー名\AppData\Local\Arduino15\packages\electroniccats\hardwar
 ```
 
 
-# コンパイルからボードへの書き込み
+# コンパイルからボードへの書き込み準備
 
 Arduino IDE でコンパイルが完了すると、以下のエラーが出ますが、問題ありません。必ず出るようにしています。<br>
 ```
@@ -60,6 +60,13 @@ Arduino IDE でコンパイルが完了すると、以下のエラーが出ま�
 最大32000バイトのRAMのうち、グローバル変数が256バイト（0%）を使っていて、ローカル変数で31744バイト使うことができます。
 ```
 
-# AA
+# ボードへの書き込み
+
+書き込みにはソフト WCHISPTool が必要です。以下の場所からダウンロードが可能です。<br>
+デフォルトインストール先が、Cドライブ直下になりますので、嫌な方はファイルだけコピー退避してアンインストールしても構いません。<br>
+<a href="https://www.wch-ic.com/downloads/WCHISPTool_Setup_exe.html">https://www.wch-ic.com/downloads/WCHISPTool_Setup_exe.html</a>
+
+WCHISPTool_CH57x-59x.exe を起動し、上記でメモした *.elf と同じディレクトリにある、*.hex ファイルを指定するだけです。
+<img src="./image/WCHISPTool.png" width="100%">
 
 
