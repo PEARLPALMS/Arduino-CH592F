@@ -49,7 +49,7 @@ C:\Users\ユーザー名\AppData\Local\Arduino15\packages\electroniccats\hardwar
 <br>
 
 
-~~# コンパイルからボードへの書き込み準備~~
+# コンパイルからボードへの書き込み準備
 
 ~~Arduino IDE でコンパイルが完了すると、以下のエラーが出ますが、問題ありません。必ず出るようにしています。<br>~~
 ```
