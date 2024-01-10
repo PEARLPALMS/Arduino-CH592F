@@ -14,7 +14,7 @@
 > [test_ch592f_button2](sample/test_ch592f_button2)<br>
 実際にボタンを実装して動作を確認します。<br>
 ボタンを押下すると、内蔵LEDが光ります。<br>
-<img src="./sample/test_ch592f_button2/IMG_0712.png" width="60%">
+<img src="./sample/test_ch592f_button2/IMG_0712.png" width="20%">
 <br>
 
 > [test_ch592f_serial](sample/test_ch592f_serial)<br>
@@ -30,5 +30,5 @@ b～z まで 2秒毎に出力します。<br>
 > [test_ch592f_ble_hid_keyboard](sample/test_ch592f_ble_hid_keyboard)<br>
 実際にボタンを実装して簡易キーボードを作成します。<br>
 ボタンを押下すると、ボタンにより abc が出力します。長押しにも対応しており、長押しの場合は、ABC が出力されます。<br>
-<img src="./sample/test_ch592f_ble_hid_keyboard/IMG_0712.png" width="60%">
+<img src="./sample/test_ch592f_ble_hid_keyboard/IMG_0712.png" width="20%">
 <br>
