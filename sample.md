@@ -29,6 +29,6 @@ b～z まで 2秒毎に出力します。<br>
 
 > [test_ch592f_ble_hid_keyboard](sample/test_ch592f_ble_hid_keyboard)<br>
 実際にボタンを実装して簡易キーボードを作成します。<br>
-ボタンを押下すると、ボタンにより abc が出力します。長押しにも対応しており、長押しの場合は、ABC が出力されます。<br>
+ボタンを押下すると、ボタンにより abc を出力します。長押しの場合は、ABC を出力します。<br>
 <img src="./sample/test_ch592f_ble_hid_keyboard/IMG_0712.png" width="20%">
 <br>
